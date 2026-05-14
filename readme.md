@@ -1,5 +1,3 @@
-# Sử dụng file này để import vào Visual Studio để sử dụng các phím tắt và cấu hình như VSCode
-
 # ⌨️ Phím Tắt VS2022 & VS Code
 
 > Tất cả phím tắt bên dưới áp dụng cho **cả VS2022 và VS Code** trừ khi có ghi chú riêng.
