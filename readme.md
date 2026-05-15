@@ -13,7 +13,6 @@
 | `Alt + ←`     | Back — lùi lại vị trí con trỏ trước đó      |
 | `Alt + →`     | Forward — tiến tới vị trí con trỏ tiếp theo |
 | `Ctrl + P`    | Tìm & mở file nhanh                         |
-| `Ctrl + G`    | Nhảy tới dòng cụ thể                        |
 
 ---
 
