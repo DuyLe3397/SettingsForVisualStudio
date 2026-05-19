@@ -179,7 +179,7 @@
           <Shortcut Command="Team.Git.Annotate" Scope="Global">Ctrl+Q</Shortcut>
           <Shortcut Command="Edit.Duplicate" Scope="Global">Shift+Alt+Down Arrow</Shortcut>
           <RemoveShortcut Command="View.QuickActions" Scope="Text Editor">Ctrl+.</RemoveShortcut>
-          <Shortcut Command="View.QuickActions" Scope="Global">Alt+D</Shortcut>
+          <Shortcut Command="View.QuickActions" Scope="Global">Alt+Enter</Shortcut>
           <RemoveShortcut Command="Edit.SelectCurrentWord" Scope="Text Editor">Ctrl+W</RemoveShortcut>
         </UserShortcuts>
       </KeyboardShortcuts>
