@@ -56,7 +56,7 @@
 | Phím tắt  | Công dụng                                                               |
 | --------- | ----------------------------------------------------------------------- |
 | `F2`      | Rename biến / hàm toàn bộ project (những nơi nó được dùng)              |
-| `Alt + D` | Gợi ý cách giải quyết bug / quick fix **(cả 2)**                        |
+| `Alt + Enter` | Gợi ý cách giải quyết bug / quick fix **(cả 2)**                        |
 
 ---
 
