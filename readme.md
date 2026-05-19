@@ -62,16 +62,17 @@
 
 ## 🐛 Debug
 
-| Phím tắt      | Công dụng                                          |
-| ------------- | -------------------------------------------------- |
-| `F5`          | Chạy debug                                         |
-| `F9`          | Đặt / bỏ breakpoint                                |
-| `Ctrl + F9`   | Vô hiệu hóa breakpoint                             |
-| `F10`         | Step Over — chạy từng dòng, không đi vào trong hàm |
-| `F11`         | Step Into — đi sâu vào bên trong hàm               |
-| `Shift + F11` | Step Out — thoát ra khỏi hàm đang ở trong          |
-| `Alt + I`     | Mở **Immediate Window** để test hàm **(VS2022)**   |
-| `F5`          | VS Code có sẵn Debug Console dưới cùng màn hình    |
+| Phím tắt      | Công dụng                                                                             |
+| ------------- | ------------------------------------------------------------------------------------- |
+| `F5`          | Chạy debug trong cả VSCode và VS2022, còn nếu đang breakpoint thì nhấn nó sẽ Continue |
+| `Shift + F5`  | Dừng debug                                                                            |
+| `F9`          | Đặt / bỏ breakpoint                                                                   |
+| `Ctrl + F9`   | Vô hiệu hóa breakpoint                                                                |
+| `F10`         | Step Over — chạy từng dòng, không đi vào trong hàm                                    |
+| `F11`         | Step Into — đi sâu vào bên trong hàm                                                  |
+| `Shift + F11` | Step Out — thoát ra khỏi hàm đang ở trong                                             |
+| `Alt + I`     | Mở **Immediate Window** để test hàm **(VS2022)**                                      |
+| —             | VS Code có sẵn Debug Console dưới cùng màn hình                                       |
 
 ---
 
