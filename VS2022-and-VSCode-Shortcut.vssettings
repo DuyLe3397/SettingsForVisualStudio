@@ -148,7 +148,7 @@
           <Shortcut Command="View.SolutionExplorer" Scope="Global">Ctrl+B</Shortcut>
           <Shortcut Command="View.Output" Scope="Global">Ctrl+J</Shortcut>
           <Shortcut Command="View.ErrorList" Scope="Global">Ctrl+Shift+M</Shortcut>
-          <Shortcut Command="Window.CloseAllDocuments" Scope="Global">Ctrl+K, Ctrl+W</Shortcut>
+          <Shortcut Command="Window.CloseDocumentWindow" Scope="Text Editor">Ctrl+W</Shortcut>
           <Shortcut Command="File.SaveAll" Scope="Global">Ctrl+K, S</Shortcut>
           <RemoveShortcut Command="Debug.Immediate" Scope="Global">Ctrl+Alt+I</RemoveShortcut>
           <Shortcut Command="Debug.Immediate" Scope="Global">Alt+I</Shortcut>
