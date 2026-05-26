@@ -81,6 +81,7 @@
 | Phím tắt   | Công dụng                           |
 | ---------- | ----------------------------------- |
 | `Ctrl + W` | Đóng file / tab hiện tại **(cả 2)** |
+| `Ctrl + S` | Lưu ALL FILES **(cả 2)** |
 
 ---
 
