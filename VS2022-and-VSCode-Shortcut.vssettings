@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" ?>
 <UserSettings>
   <ApplicationIdentity version="17.0"/>
   <ToolsOptions>
@@ -6,11 +6,6 @@
     <ToolsOptionsCategory name="TextEditor" RegisteredName="TextEditor"/>
   </ToolsOptions>
   <Category name="Environment_Group" RegisteredName="Environment_Group">
-    <Category name="Environment_ExtensionManager" Category="{539391d7-9414-4715-b033-8669db0abee1}" Package="{e7576c05-1874-450c-9e98-cf3a0897a069}" RegisteredName="Environment_ExtensionManager" PackageName="ExtensionManagerPackage">
-      <PropertyValue name="AutomaticallyCheckForUpdates2">True</PropertyValue>
-      <PropertyValue name="CustomRepositories">&lt;ExtensionRepositoryConfigList Capacity=&quot;0&quot; xmlns=&quot;clr-namespace:Microsoft.VisualStudio.ExtensionManager;assembly=Microsoft.VisualStudio.ExtensionEngineContract&quot; /&gt;</PropertyValue>
-      <PropertyValue name="EnableAdminExtensions">True</PropertyValue>
-    </Category>
     <Category name="Environment_KeyBindings" Category="{F09035F1-80D2-4312-8EC4-4D354A4BCB4C}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_KeyBindings" PackageName="Visual Studio Environment Package">
       <Version>17.0.0.0</Version>
       <KeyboardShortcuts>
@@ -92,22 +87,28 @@
         </DefaultShortcuts>
         <ShortcutsScheme/>
         <UserShortcuts>
+          <RemoveShortcut Command="SolutionExplorer.SyncWithActiveDocument" Scope="Global">Ctrl+[, S</RemoveShortcut>
+          <RemoveShortcut Command="SolutionExplorer.SyncWithActiveDocument" Scope="Global">Ctrl+[, Ctrl+S</RemoveShortcut>
+          <RemoveShortcut Command="SolutionExplorer.OpenFilesFilter" Scope="Global">Ctrl+[, O</RemoveShortcut>
+          <RemoveShortcut Command="SolutionExplorer.OpenFilesFilter" Scope="Global">Ctrl+[, Ctrl+O</RemoveShortcut>
+          <RemoveShortcut Command="SolutionExplorer.PendingChangesFilter" Scope="Global">Ctrl+[, P</RemoveShortcut>
+          <RemoveShortcut Command="SolutionExplorer.PendingChangesFilter" Scope="Global">Ctrl+[, Ctrl+P</RemoveShortcut>
+          <RemoveShortcut Command="Edit.LineOpenAbove" Scope="Text Editor">Ctrl+Enter</RemoveShortcut>
+          <RemoveShortcut Command="Comments.CloseCommentToolbar" Scope="Text Editor">Ctrl+Shift+F1</RemoveShortcut>
+          <RemoveShortcut Command="View.QuickActions" Scope="Text Editor">Alt+Enter</RemoveShortcut>
+          <Shortcut Command="View.QuickActions" Scope="Global">Alt+Enter</Shortcut>
           <RemoveShortcut Command="TestExplorer.ShowTestExplorer" Scope="Global">Ctrl+E, T</RemoveShortcut>
           <RemoveShortcut Command="View.ShowTaskStatusCenter" Scope="Global">Ctrl+E, Ctrl+T</RemoveShortcut>
           <RemoveShortcut Command="View.TaskRunnerExplorer" Scope="Global">Ctrl+Alt+Bkspce</RemoveShortcut>
-          <Shortcut Command="View.Output" Scope="Global">Ctrl+Shift+U</Shortcut>
           <RemoveShortcut Command="Edit.InsertCaretsatAllMatching" Scope="Text Editor">Shift+Alt+;</RemoveShortcut>
           <RemoveShortcut Command="Edit.InsertCaretsatAllMatching" Scope="Global">Alt+Up Arrow</RemoveShortcut>
           <RemoveShortcut Command="Window.CloseDocumentWindow" Scope="Global">Ctrl+F4</RemoveShortcut>
-          <Shortcut Command="Edit.LineDelete" Scope="Text Editor">Ctrl+Shift+K</Shortcut>
-          <Shortcut Command="Window.CloseDocumentWindow" Scope="Global">Ctrl+W</Shortcut>
           <RemoveShortcut Command="View.NavigateBackward" Scope="Global">Ctrl+-</RemoveShortcut>
           <RemoveShortcut Command="View.NavigateForward" Scope="Global">Ctrl+Shift+-</RemoveShortcut>
           <RemoveShortcut Command="Edit.NavigateTo" Scope="Global">Ctrl+T</RemoveShortcut>
           <RemoveShortcut Command="Edit.CommentSelection" Scope="Text Editor">Ctrl+K, Ctrl+C</RemoveShortcut>
           <RemoveShortcut Command="Edit.GotoBrace" Scope="Text Editor">Ctrl+]</RemoveShortcut>
           <RemoveShortcut Command="View.QuickActionsForPosition" Scope="Text Editor">Ctrl+\, Ctrl+.</RemoveShortcut>
-          <RemoveShortcut Command="Comments.CloseCommentToolbar" Scope="Text Editor">Ctrl+Shift+F1</RemoveShortcut>
           <RemoveShortcut Command="Edit.NextSubword" Scope="Text Editor">Ctrl+Alt+Right Arrow</RemoveShortcut>
           <RemoveShortcut Command="Edit.PreviousSubword" Scope="Text Editor">Ctrl+Alt+Left Arrow</RemoveShortcut>
           <RemoveShortcut Command="EditorContextMenus.CodeWindow.Execute" Scope="Global">Ctrl+Alt+F5</RemoveShortcut>
@@ -122,43 +123,12 @@
           <RemoveShortcut Command="Debug.ModulesWindow.Search" Scope="Modules Window">Ctrl+E</RemoveShortcut>
           <RemoveShortcut Command="Debug.ParallelStacks.Search" Scope="Parallel Stacks Window">Ctrl+E</RemoveShortcut>
           <RemoveShortcut Command="Debug.Watch.Search" Scope="Watch Windows">Ctrl+E</RemoveShortcut>
-          <Shortcut Command="View.NavigateBackward" Scope="Global">Alt+Left Arrow</Shortcut>
-          <Shortcut Command="Edit.NavigateTo" Scope="Global">Ctrl+P</Shortcut>
-          <Shortcut Command="Tools.GoToCommandLine" Scope="Global">Ctrl+Shift+P</Shortcut>
-          <Shortcut Command="Edit.GoTo" Scope="Global">Ctrl+G</Shortcut>
-          <Shortcut Command="Edit.ReplaceinFiles" Scope="Global">Ctrl+Shift+H</Shortcut>
-          <Shortcut Command="Edit.MoveSelectedLinesUp" Scope="Text Editor">Alt+Up Arrow</Shortcut>
-          <Shortcut Command="Edit.MoveSelectedLinesDown" Scope="Text Editor">Alt+Down Arrow</Shortcut>
-          <Shortcut Command="Edit.ExpandSelection" Scope="Text Editor">Shift+Alt+Right Arrow</Shortcut>
-          <Shortcut Command="Edit.LineOpenBelow" Scope="Text Editor">Ctrl+Enter</Shortcut>
-          <Shortcut Command="Edit.LineOpenAbove" Scope="Text Editor">Ctrl+Shift+Enter</Shortcut>
-          <Shortcut Command="Edit.CommentSelection" Scope="Global">Ctrl+/</Shortcut>
-          <Shortcut Command="Edit.UncommentSelection" Scope="Text Editor">Ctrl+K, Ctrl+U</Shortcut>
-          <Shortcut Command="Edit.IncreaseLineIndent" Scope="Global">Ctrl+]</Shortcut>
-          <Shortcut Command="Edit.DecreaseLineIndent" Scope="Global">Ctrl+[</Shortcut>
-          <Shortcut Command="Edit.GotoBrace" Scope="Global">Ctrl+Shift+\</Shortcut>
-          <Shortcut Command="Refactor.Rename" Scope="Global">F2</Shortcut>
-          <Shortcut Command="View.QuickActionsForPosition" Scope="Global">Ctrl+.</Shortcut>
-          <Shortcut Command="Edit.PeekDefinition" Scope="Text Editor">Alt+F12</Shortcut>
-          <Shortcut Command="Edit.GoToMember" Scope="Global">Ctrl+Shift+O</Shortcut>
-          <Shortcut Command="Edit.CollapseAllOutlining" Scope="Text Editor">Ctrl+K, Ctrl+0</Shortcut>
-          <Shortcut Command="Edit.ExpandAllOutlining" Scope="Text Editor">Ctrl+K, Ctrl+J</Shortcut>
-          <Shortcut Command="Edit.ToggleAllOutlining" Scope="Text Editor">Ctrl+K, Ctrl+L</Shortcut>
-          <Shortcut Command="View.Terminal" Scope="Global">Ctrl+`</Shortcut>
-          <Shortcut Command="View.SolutionExplorer" Scope="Global">Ctrl+B</Shortcut>
-          <Shortcut Command="View.Output" Scope="Global">Ctrl+J</Shortcut>
-          <Shortcut Command="View.ErrorList" Scope="Global">Ctrl+Shift+M</Shortcut>
-          <Shortcut Command="Window.CloseDocumentWindow" Scope="Text Editor">Ctrl+W</Shortcut>
-          <Shortcut Command="File.SaveAll" Scope="Global">Ctrl+S</Shortcut>
           <RemoveShortcut Command="Debug.Immediate" Scope="Global">Ctrl+Alt+I</RemoveShortcut>
-          <Shortcut Command="Debug.Immediate" Scope="Global">Alt+I</Shortcut>
           <RemoveShortcut Command="Edit.Duplicate" Scope="Text Editor">Ctrl+E, V</RemoveShortcut>
           <RemoveShortcut Command="Edit.Duplicate" Scope="Text Editor">Ctrl+E, Ctrl+V</RemoveShortcut>
           <RemoveShortcut Command="Edit.Duplicate" Scope="Resource Explorer">Ctrl+D</RemoveShortcut>
           <RemoveShortcut Command="Edit.Duplicate" Scope="Text Editor">Ctrl+D</RemoveShortcut>
           <RemoveShortcut Command="Edit.LineUpExtendColumn" Scope="Text Editor">Shift+Alt+Up Arrow</RemoveShortcut>
-          <Shortcut Command="Edit.Duplicate" Scope="Global">Shift+Alt+Up Arrow</Shortcut>
-          <Shortcut Command="Edit.InsertCaretsatAllMatching" Scope="Global">Alt+U</Shortcut>
           <RemoveShortcut Command="Edit.LineUpExtendColumn" Scope="Global">Alt+M</RemoveShortcut>
           <RemoveShortcut Command="Edit.LineUpExtendColumn" Scope="Global">Ctrl+Num 2</RemoveShortcut>
           <RemoveShortcut Command="Edit.LineUpExtendColumn" Scope="Global">Ctrl+Num 8</RemoveShortcut>
@@ -166,21 +136,58 @@
           <RemoveShortcut Command="Edit.SizeControlDown" Scope="VC Dialog Editor">Shift+Down Arrow</RemoveShortcut>
           <RemoveShortcut Command="Edit.SizeControlDown" Scope="Windows Forms Designer">Ctrl+Shift+Down Arrow</RemoveShortcut>
           <RemoveShortcut Command="Edit.LineDownExtendColumn" Scope="Text Editor">Shift+Alt+Down Arrow</RemoveShortcut>
-          <Shortcut Command="Edit.LineUpExtendColumn" Scope="Global">Ctrl+Shift+Up Arrow</Shortcut>
-          <Shortcut Command="Edit.LineDownExtendColumn" Scope="Global">Ctrl+Shift+Down Arrow</Shortcut>
           <RemoveShortcut Command="Edit.NextHighlightedReference" Scope="Text Editor">Ctrl+Shift+Down Arrow</RemoveShortcut>
-          <Shortcut Command="Edit.Cut" Scope="Text Editor">Ctrl+X</Shortcut>
           <RemoveShortcut Command="Edit.CompleteWord" Scope="Text Editor">Alt+Right Arrow</RemoveShortcut>
           <RemoveShortcut Command="View.NavigateForward" Scope="Global">Ctrl+Alt+Right Arrow</RemoveShortcut>
-          <Shortcut Command="View.NavigateForward" Scope="Global">Alt+Right Arrow</Shortcut>
           <RemoveShortcut Command="Team.Git.Annotate" Scope="Text Editor">Ctrl+Q</RemoveShortcut>
           <RemoveShortcut Command="Team.Git.Annotate" Scope="Global">Alt+B</RemoveShortcut>
           <RemoveShortcut Command="Team.Git.Annotate" Scope="Text Editor">Alt+B</RemoveShortcut>
-          <Shortcut Command="Team.Git.Annotate" Scope="Global">Ctrl+Q</Shortcut>
-          <Shortcut Command="Edit.Duplicate" Scope="Global">Shift+Alt+Down Arrow</Shortcut>
           <RemoveShortcut Command="View.QuickActions" Scope="Text Editor">Ctrl+.</RemoveShortcut>
-          <Shortcut Command="View.QuickActions" Scope="Global">Alt+Enter</Shortcut>
           <RemoveShortcut Command="Edit.SelectCurrentWord" Scope="Text Editor">Ctrl+W</RemoveShortcut>
+          <Shortcut Command="View.NavigateBackward" Scope="Global">Alt+Left Arrow</Shortcut>
+          <Shortcut Command="Edit.NavigateTo" Scope="Global">Ctrl+P</Shortcut>
+          <Shortcut Command="Tools.GoToCommandLine" Scope="Global">Ctrl+Shift+P</Shortcut>
+          <Shortcut Command="Edit.ExpandSelection" Scope="Text Editor">Shift+Alt+Right Arrow</Shortcut>
+          <Shortcut Command="Edit.LineOpenAbove" Scope="Text Editor">Ctrl+Shift+Enter</Shortcut>
+          <Shortcut Command="Edit.CommentSelection" Scope="Global">Ctrl+/</Shortcut>
+          <Shortcut Command="Refactor.Rename" Scope="Global">F2</Shortcut>
+          <Shortcut Command="View.QuickActionsForPosition" Scope="Global">Ctrl+.</Shortcut>
+          <Shortcut Command="Edit.GoToMember" Scope="Global">Ctrl+Shift+O</Shortcut>
+          <Shortcut Command="Edit.ToggleAllOutlining" Scope="Text Editor">Ctrl+K, Ctrl+L</Shortcut>
+          <Shortcut Command="View.SolutionExplorer" Scope="Global">Ctrl+B</Shortcut>
+          <Shortcut Command="Debug.Immediate" Scope="Global">Alt+I</Shortcut>
+          <Shortcut Command="Edit.Duplicate" Scope="Global">Shift+Alt+Up Arrow</Shortcut>
+          <Shortcut Command="Edit.LineUpExtendColumn" Scope="Global">Ctrl+Shift+Up Arrow</Shortcut>
+          <Shortcut Command="Edit.LineDownExtendColumn" Scope="Global">Ctrl+Shift+Down Arrow</Shortcut>
+          <Shortcut Command="Edit.Cut" Scope="Text Editor">Ctrl+X</Shortcut>
+          <Shortcut Command="View.NavigateForward" Scope="Global">Alt+Right Arrow</Shortcut>
+          <Shortcut Command="Team.Git.Annotate" Scope="Global">Ctrl+Q</Shortcut>
+          <RemoveShortcut Command="View.QuickActions" Scope="Global">Alt+S</RemoveShortcut>
+          <RemoveShortcut Command="Edit.GoTo" Scope="Global">Ctrl+G</RemoveShortcut>
+          <RemoveShortcut Command="File.SaveAll" Scope="Global">Ctrl+K, S</RemoveShortcut>
+          <RemoveShortcut Command="View.ErrorList" Scope="Global">Ctrl+Shift+M</RemoveShortcut>
+          <RemoveShortcut Command="Edit.GotoBrace" Scope="Global">Ctrl+Shift+\</RemoveShortcut>
+          <RemoveShortcut Command="Edit.DecreaseLineIndent" Scope="Global">Ctrl+[</RemoveShortcut>
+          <RemoveShortcut Command="View.Terminal" Scope="Global">Ctrl+`</RemoveShortcut>
+          <RemoveShortcut Command="Edit.MoveSelectedLinesDown" Scope="Text Editor">Alt+Down Arrow</RemoveShortcut>
+          <RemoveShortcut Command="Edit.MoveSelectedLinesUp" Scope="Text Editor">Alt+Up Arrow</RemoveShortcut>
+          <RemoveShortcut Command="Edit.ExpandAllOutlining" Scope="Text Editor">Ctrl+K, Ctrl+J</RemoveShortcut>
+          <RemoveShortcut Command="Edit.LineDelete" Scope="Text Editor">Ctrl+Shift+K</RemoveShortcut>
+          <RemoveShortcut Command="Edit.InsertCaretsatAllMatching" Scope="Global">Alt+U</RemoveShortcut>
+          <RemoveShortcut Command="View.Output" Scope="Global">Ctrl+J</RemoveShortcut>
+          <RemoveShortcut Command="Edit.ReplaceinFiles" Scope="Global">Ctrl+Shift+H</RemoveShortcut>
+          <RemoveShortcut Command="View.Output" Scope="Global">Ctrl+Shift+U</RemoveShortcut>
+          <RemoveShortcut Command="Window.CloseDocumentWindow" Scope="Global">Ctrl+W</RemoveShortcut>
+          <RemoveShortcut Command="Edit.IncreaseLineIndent" Scope="Global">Ctrl+]</RemoveShortcut>
+          <RemoveShortcut Command="Edit.Duplicate" Scope="Global">Shift+Alt+Down Arrow</RemoveShortcut>
+          <RemoveShortcut Command="Edit.PeekDefinition" Scope="Text Editor">Alt+F12</RemoveShortcut>
+          <RemoveShortcut Command="Edit.CollapseAllOutlining" Scope="Text Editor">Ctrl+K, Ctrl+0</RemoveShortcut>
+          <RemoveShortcut Command="Edit.UncommentSelection" Scope="Text Editor">Ctrl+K, Ctrl+U</RemoveShortcut>
+          <RemoveShortcut Command="Window.CloseAllDocuments" Scope="Text Editor">Ctrl+W</RemoveShortcut>
+          <Shortcut Command="Window.CloseAllDocuments" Scope="Global">Ctrl+K, Ctrl+W</Shortcut>
+          <RemoveShortcut Command="Window.CloseDocumentWindow" Scope="Text Editor">Ctrl+W</RemoveShortcut>
+          <RemoveShortcut Command="File.SaveAll" Scope="Global">Ctrl+Shift+S</RemoveShortcut>
+          <Shortcut Command="File.SaveAll" Scope="Global">Ctrl+S</Shortcut>
         </UserShortcuts>
       </KeyboardShortcuts>
     </Category>
